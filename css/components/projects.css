@@ -1,0 +1,75 @@
+.projects {
+    margin-bottom: 16rem;
+    scroll-margin-top: 15rem;
+}
+
+.projects .projects_content {
+    max-width: 56rem;
+    text-align: center;
+    margin: 0 auto 6rem;
+}
+
+.projects ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.projects ul .projects_reverse-list{
+    flex-direction: row-reverse;
+}
+
+.projects ul li:not(:last-of-type) {
+    margin-bottom: 12rem;
+}
+
+.projects ul li .image img {
+    width: 100%;
+    min-width: 40rem;
+    max-width: 47rem;
+    height: auto;
+}
+
+.projects ul li .image .toDoList{
+    width: 50rem;
+    height: 30rem;
+}
+
+.projects ul li .image .login{
+    width: 50rem;
+    height: 30rem;
+}
+
+.projects ul li .image .chatbotBetim{
+    width: 50rem;
+    height: 30rem;
+}
+
+.projects ul li .projects_info {
+    max-width: 47rem;
+}
+
+.projects ul li .projects_info p {
+    margin: 1rem 0 4rem;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+    .projects ul li, 
+    .projects ul li.projects_reverse-list {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .projects ul li .projects_info {
+        max-width: 66rem;
+    }
+
+    .projects ul li .image .chatbotBetim,
+    .projects ul li .image .login,
+    .projects ul li .image .toDoList {
+        width: 40rem;
+        height: 35rem;
+    }
+}
