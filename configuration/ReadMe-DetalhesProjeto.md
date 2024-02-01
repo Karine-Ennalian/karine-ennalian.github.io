@@ -15,4 +15,4 @@ Este site foi desenvolvido em formato de portifólio, afim de ser um resumo do m
 * #000000
 
 ### Paleta
-![Foto com referência de cor](./cores.jpg)
+![Foto com referência de cor](./configuration/cores.jpg)
