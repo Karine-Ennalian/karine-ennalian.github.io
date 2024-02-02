@@ -11,6 +11,7 @@
 .skills .skills_content .description {
     max-width: 56rem;
     margin: 5rem auto 6rem;
+    color: var(--light-tertiary-color);
 }
 
 .skills .skills_content ul {
@@ -55,4 +56,5 @@
 
 .skills .skills_content ul li p {
     text-align: justify;
+    color: var(--light-tertiary-color);
 }
