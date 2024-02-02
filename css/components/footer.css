@@ -1,64 +1,48 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 4rem;
-    scroll-margin-top: 15rem;
+footer {
+    background: linear-gradient(45deg, var(--background-color), var(--tertiary-color));
 }
 
-header .header_left {
-    max-width: 62rem;
-    flex: 1;
+footer .footer_content {
+    text-align: center;
+    padding: 6rem 2rem 1rem;
+    max-width: 47rem;
 }
 
-header .header_left p {
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-    max-width: 50rem;
-    text-align: justify;
+footer .footer_content .mb-m {
     color: var(--light-tertiary-color);
 }
 
-header .header_right .header_image {
-    position: relative;
-    line-height: 0;
-}
-
-header .header_right .header_image::after {
-    content: ' ';
+footer .footer_content .footer_contact span {
     display: block;
-    width: 100%;
-    height: 100%;
-    border: 1px solid var(--creamer);
-    position: absolute;
-    top: -1.5rem;
-    right: -1.5rem;
-    border-radius: 0.5rem;
-    z-index: -1;
+    font-weight: 500;
+    color: var(--cream);
 }
 
-header .header_right .header_image .karine{
-    width: 341;
-    height: 512;
-    border-radius: 0.5rem;
-    min-width: 25rem;
-    max-width: 100%;
+footer .footer_content ul li {
+    display: inline-block;
 }
 
-header .header_right .header_image .background{
-    position: absolute;
-    top: -3rem;
-    right: -2.5rem;
-    z-index: -1;
+footer .footer_content ul li a {
+    display: inline-block;
+    padding: 1rem;
 }
 
-@media only screen and (max-width: 768px) {
-    header {
-        flex-direction: column-reverse;
-        text-align: center;
-    }
+footer .footer_content ul li a img{
+    width: 5rem;
+    height: 5rem;
+}
 
-    header .header_left p {
-        margin: 2rem auto 4rem;
-    }
+footer .footer_content ul li a .git{
+    position: relative;
+    width: 7.5rem;
+    height: 7.5rem;
+    top: 1rem;
+    left: -1rem;
+    margin-top: -2rem;
+    margin-right: -2rem;
+}
+
+footer .footer_content .footer_copyright {
+    font-size: 1.4rem;
+    color: var(--creamer);
 }
