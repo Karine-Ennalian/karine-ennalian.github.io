@@ -9,6 +9,10 @@
     margin: 0 auto 6rem;
 }
 
+.projects .projects_content p {
+    color: var(--light-tertiary-color);
+}
+
 .projects ul li {
     display: flex;
     justify-content: space-between;
@@ -53,6 +57,7 @@
 .projects ul li .projects_info p {
     margin: 1rem 0 4rem;
     text-align: justify;
+    color: var(--light-tertiary-color);
 }
 
 @media only screen and (max-width: 768px) {
