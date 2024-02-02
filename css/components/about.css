@@ -13,6 +13,7 @@
 .about .about_left p{
     margin: 1rem 0 2rem;
     text-align: justify;
+    color: var(--light-tertiary-color);
 }
 
 .about .about_left ul{
@@ -50,6 +51,7 @@
 
 .about .about_right p {
     text-align: justify;
+    color: var(--light-tertiary-color);
 }
 
 @media only screen and (max-width: 768px) {
